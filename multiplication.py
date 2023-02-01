@@ -4,9 +4,10 @@ import numpy as np
 generating the random matries of specified length 
 for a, b and c using numpy
 """
-a = np.random.randint(10, size=(10**6, 10**3))
-b = np.random.randint(10, size=(10**3, 10**6))
-c = np.random.randint(10, size=(10**6, 1))
+a = np.random.random((10**6, 10**3))
+b = np.random.random((10**3, 10**6))
+c = np.random.random((10**6, 1))
+
 
 
 """
